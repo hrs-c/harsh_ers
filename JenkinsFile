@@ -10,8 +10,8 @@ pipeline {
 "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REP
 O}:${IMAGE_TAG}"
  LATEST_URI =
-"${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REP
-O}:latest"
+"""${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REP
+O}:latest"""
  DEPLOY_SERVER = '65.2.152.36'
  }
 
