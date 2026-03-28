@@ -14,7 +14,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/hrs-c/Blood_Bank.git'
+        git branch: 'main', url: 'https://github.com/hrs-c/harsh-ers.git'
       }
     }
 
